@@ -209,9 +209,9 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "onnxruntime", specifier = ">=1.24.2" },
-    { name = "onnxruntime-directml", specifier = ">=1.24.2" },
-    { name = "onnxruntime-gpu", specifier = ">=1.24.2" },
+    { name = "onnxruntime", specifier = ">=1.15.0" },
+    { name = "onnxruntime-directml", specifier = ">=1.15.0" },
+    { name = "onnxruntime-gpu", specifier = ">=1.15.0" },
     { name = "ultralytics", specifier = ">=8.4.19" },
 ]
 

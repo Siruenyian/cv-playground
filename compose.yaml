@@ -1,0 +1,18 @@
+services:  
+  learn-cv:
+    image: deciai/super-gradients:latest
+    shm_size: 8gb
+    container_name: learn-cv
+    restart: unless-stopped
+    volumes:
+      - D:/Github/cv-playground:/app
+    working_dir: /app
+    network_mode: "host"
+    command: tail -f /dev/null
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: [ "0" ]
+              capabilities: [ gpu ]
