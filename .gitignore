@@ -207,3 +207,4 @@ marimo/_lsp/
 __marimo__/
 models
 notebooks/rock-paper-scissors-14/
+notebooks/checkpoints
